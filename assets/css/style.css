@@ -875,6 +875,43 @@ main {
   border-radius: inherit;
 }
 
+.skill {
+  padding: 10px;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Space between items */
+}
+
+.skills-item {
+  flex: 1 1 calc(50% - 20px); /* Two items per row, minus the gap */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.title-wrapper {
+  margin-bottom: 10px; /* Space below title */
+}
+
+.icon {
+  width: 64px; /* Set icon size */
+  height: 64px;
+  background-color: white; /* White backdrop */
+  border-radius: 30%; /* Make the backdrop circular */
+  display: flex; /* Center the icon */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Optional shadow for depth */
+  padding: 5px; /* Optional padding for spacing */
+}
+
+.framework-icons {
+  display: flex;
+  gap: 10px; /* Space between icons */
+}
 
 
 
